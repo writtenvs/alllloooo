@@ -1,5 +1,5 @@
 .card{
-    width: 420px;
+    width: 100%; /* Карточка занимает всю доступную ширину в колонке Grid */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 .card_img img{
-    width: 420px;
+    width: 100%;
     height: 340px;
     /* width: 100%;
     height: 100%; */
